@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import LandingPage from "./pages/landing";
 import RegisterPage from "./pages/register";
 import JoinPage from "./pages/join";
+import MeetingPage from "./pages/meeting";
 
 export default function Routes() {
   return (
@@ -15,6 +16,9 @@ export default function Routes() {
       </Route>
       <Route path="/join">
         <JoinPage />
+      </Route>
+      <Route path="/meeting">
+        <MeetingPage />
       </Route>
     </Switch>
   );

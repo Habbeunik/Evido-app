@@ -3,8 +3,9 @@ import React from "react";
 import styled from "styled-components";
 import theme from "../../config/theme";
 import { Link } from "react-router-dom";
+import { Container as ContainerLayout } from "../layout/container";
 
-export const Container = styled.div`
+export const Container = styled(ContainerLayout)`
   padding: 20px 10%;
   max-width: 1300px;
 `;
