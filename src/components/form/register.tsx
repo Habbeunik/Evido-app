@@ -7,7 +7,7 @@ import { BodyText } from "../typography";
 export default function RegisterForm() {
   return (
     <Form>
-      <Headline>Create an Account</Headline>
+      <Headline>Register</Headline>
       <Group>
         <TextField label="Username" type="text" />
         <TextField label="Email" type="email" />

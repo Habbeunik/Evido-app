@@ -7,7 +7,7 @@ import { BodyText } from "../typography";
 export default function LoginForm() {
   return (
     <Form>
-      <Headline>Login and Setup Meeting</Headline>
+      <Headline>Login</Headline>
       <Group>
         <TextField label="Email" type="email" />
         <TextField label="Password" type="password" />

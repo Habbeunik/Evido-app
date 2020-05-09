@@ -8,11 +8,25 @@ export const Form = styled.form`
 `;
 
 export const Headline = styled.h3`
-  text-align: left;
   font-family: ${theme.font};
   font-size: 25px;
-  /* color: #817f7f; */
+  text-align: center;
   font-weight: 700;
+  /* text-transform: uppercase; */
+  width: fit-content;
+  margin: auto;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 120%;
+    height: 5px;
+    background-color: ${theme.colors.primaryLight};
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    z-index: -1;
+  }
 `;
 
 export const Group = styled.div`

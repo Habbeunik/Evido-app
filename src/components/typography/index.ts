@@ -6,4 +6,5 @@ export const BodyText = styled.p`
   color: #7e7c7c;
   margin: 15px 0px;
   margin-bottom: 0px;
+  font-size: 14px;
 `;
