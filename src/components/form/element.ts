@@ -25,6 +25,18 @@ export const Group = styled.div`
   align-items: center;
 `;
 
+export const SubGroup = styled(Group)`
+  margin: 0;
+`;
+
+export const Line = styled.div`
+  width: 120%;
+  height: 1px;
+  background-color: #cccccc5e;
+  position: relative;
+  left: -10%;
+`;
+
 export const Anchor = styled(Link)`
   color: #66d0ad;
 `;

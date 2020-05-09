@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, Headline, Group, Anchor } from "./element";
+import { Form, Headline, Group, SubGroup, Anchor, Line } from "./element";
 import { TextField } from "../input";
 import Button from "../button";
 import { BodyText } from "../typography";
@@ -13,14 +13,15 @@ export default function LoginForm() {
         <TextField label="Password" type="password" />
         <Button>Login</Button>
       </Group>
-      <Group style={{ margin: 0 }}>
+      <Line />
+      <SubGroup>
         <BodyText>
           Don't have an account ? <Anchor to="/reg">Signup</Anchor>
         </BodyText>
         <BodyText>
           <Anchor to="/">Forgot Password</Anchor>
         </BodyText>
-      </Group>
+      </SubGroup>
     </Form>
   );
 }

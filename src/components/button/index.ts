@@ -11,6 +11,7 @@ export const Button = styled.button`
   font-weight: 700;
   color: white;
   background: ${theme.colors.primaryLight};
+  cursor: pointer;
 `;
 
 export default Button;
