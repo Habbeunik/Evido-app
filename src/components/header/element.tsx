@@ -20,7 +20,7 @@ export const Nav = styled(Wrapper)`
   justify-content: flex-end;
 `;
 
-export const NavItem = styled(Link)`
+export const NavItem: any = styled(Link)`
   text-decoration: none;
   margin-left: 50px;
 `;

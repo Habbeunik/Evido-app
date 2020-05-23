@@ -1,9 +1,11 @@
 const theme = {
   font: "Comfortaa",
   colors: {
-    primary: "#66d0ad",
-    primaryLight: "#77e7c1",
+    primary: "#49937a",
+    primaryLight: "#57ba99",
     grey: "#f2f2f2",
+    darkGrey: "#ccc",
+    dark: "#282727",
   },
 };
 

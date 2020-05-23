@@ -19,11 +19,11 @@ export const Headline = styled.h3`
 
   &::after {
     content: "";
-    width: 120%;
+    width: 100%;
     height: 5px;
     background-color: ${theme.colors.primaryLight};
     position: absolute;
-    bottom: -4px;
+    bottom: -8px;
     left: 0;
     z-index: -1;
   }
@@ -52,7 +52,7 @@ export const Line = styled.div`
 `;
 
 export const Anchor = styled(Link)`
-  color: #66d0ad;
+  color: ${theme.colors.primaryLight};
 `;
 
 //sonorous, roves sans, reef, aoki, void, balle

@@ -91,7 +91,12 @@ const TriggerBox = styled.div`
   cursor: pointer;
 `;
 
-export function Trigger({ state, onClick }: any) {
+interface ITriggerProps {
+  state: "open" | "close";
+  onClick: () => void;
+}
+
+export function Trigger({ state, onClick }: ITriggerProps) {
   const shouldOpen = state !== "open";
   const Icon = shouldOpen ? MessageSquare : X;
 

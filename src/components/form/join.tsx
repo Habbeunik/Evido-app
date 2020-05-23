@@ -1,8 +1,7 @@
 import React from "react";
-import { Form, Headline, Group, SubGroup, Anchor, Line } from "./element";
+import { Form, Headline, Group } from "./element";
 import { TextField } from "../input";
 import Button from "../button";
-import { BodyText } from "../typography";
 
 export default function JoinForm() {
   return (
